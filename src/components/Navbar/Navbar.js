@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../Button';
+import './styles.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -10,12 +11,22 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const handleCloseMobileMenu = () => setClick(false);
 
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  window.addEventListener('resize', showButton);
+
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo'>
-            UNCOMMON <i className='fas fa-route'></i>
+            UNCOMMON<i className='fas fa-route'></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
