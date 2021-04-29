@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import Button from '../Button';
@@ -19,13 +19,18 @@ function Navbar() {
     }
   };
 
+  // button will render only once and will not appear in mobile ver. after refreshing the page
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener('resize', showButton);
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo'>
+          <Link to='/' className='navbar-logo' onClick={handleCloseMobileMenu}>
             UNCOMMON<i className='fas fa-route'></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
