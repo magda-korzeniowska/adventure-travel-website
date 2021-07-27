@@ -6,14 +6,14 @@ import './styles.css';
 function Cards() {
   return(
     <div className='cards'>
-      <h1>Check out these EPIC destinations!</h1>
+      {/* <h1>Check out these EPIC destinations!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem />
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
