@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../Button';
 
 import './styles.css';
-import video from '../../assets/videos/video-3.mp4'
+import video from '../../assets/videos/video-1.mp4'
 
 function HeroSection() {
   return (
@@ -32,6 +32,5 @@ function HeroSection() {
 
 export default HeroSection;
 
-// video-2 Video by eberhard grossgasteiger from Pexels
-// video-3 Video by ROMAN ODINTSOV from Pexels
+// video-1 Video by ROMAN ODINTSOV from Pexels
 
