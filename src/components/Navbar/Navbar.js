@@ -5,10 +5,10 @@ import Button from '../Button';
 import './styles.css';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [isClicked, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!isClicked);
   const handleCloseMobileMenu = () => setClick(false);
 
   const showButton = () => {
@@ -34,9 +34,9 @@ function Navbar() {
             UNCOMMON <i className='fas fa-route'></i>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={isClicked ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={isClicked ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link
                 to='/'
