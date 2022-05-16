@@ -54,13 +54,16 @@ video {
     font-size: 40px;
     margin-top: -100px;
   }
+
   .hero-text {
     font-size: 30px;
   }
+
   .btn-mobile {
     display: block;
     text-decoration: none;
   }
+
   .btn {
     width: 100%;
   }
