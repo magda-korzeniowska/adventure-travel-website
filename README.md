@@ -6,15 +6,16 @@ Adventure: A travel based responsive landing web page built - this project was b
 
 [LIVE PREVIEW](https://magda-korzeniowska.github.io/adventure-travel-website/)
 
-![Landing Page](/src/assets/landing_page.png)
-![Cards](/src/assets/cards.png)
-![Footer](/src/assets/footer.png)
+![Landing Page](/src/assets/images/landing_page.png)
+
+![Cards](/src/assets/images/cards.png)
+![Footer](/src/assets/images/footer.png)
 
 ## Installation
 
 1. Start terminal and clone repository using:
    ```bash
-   git clone https://github.com/magda-korzeniowska/adventure-travel-website`
+   git clone https://github.com/magda-korzeniowska/adventure-travel-website
    ```
 2. Install all dependencies => go the main directory of the react-challenge repository:
 
