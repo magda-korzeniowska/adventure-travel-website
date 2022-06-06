@@ -12,12 +12,11 @@ Adventure: A travel based responsive landing web page built - this project was b
 
 ![Footer](/src/assets/images/footer.png?raw=true "Footer")
 
-<div align="middle">
-![Landing Page - mobile](/src/assets/images/landing_page_mobile.png?raw=true "Landing Page for mobile")
-![Cards - mobile](/src/assets/images/cards_mobile.png?raw=true "Cards for mobile")
-![Footer - mobile](/src/assets/images/footer_mobile.png?raw=true "Footer for mobile")
-</div>
-
+<p align="middle">
+  <img align="top" src="/src/assets/images/landing_page_mobile.png" width="32%" />
+  <img align="top" src="/src/assets/images/cards_mobile.png" width="32%" /> 
+  <img align="top" src="/src/assets/images/footer_mobile.png" width="32%" />
+</p>
 ## Installation
 
 1. Start terminal and clone repository using:
