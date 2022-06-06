@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adventure-travel-website/static/css/main.c1cdc0c8.css",
-    "main.js": "/adventure-travel-website/static/js/main.a809f21b.js",
+    "main.css": "/adventure-travel-website/static/css/main.09256bf5.css",
+    "main.js": "/adventure-travel-website/static/js/main.8a97a9c4.js",
     "static/media/video-1.mp4": "/adventure-travel-website/static/media/video-1.c4da04f11080e3bedaf0.mp4",
     "static/media/img-4.jpeg": "/adventure-travel-website/static/media/img-4.bb238fc1bea8ae2474d2.jpeg",
     "static/media/img-2.jpeg": "/adventure-travel-website/static/media/img-2.baefc7633ba34e027fcf.jpeg",
@@ -9,11 +9,11 @@
     "static/media/img-5.jpeg": "/adventure-travel-website/static/media/img-5.2041e44e6258140e8fec.jpeg",
     "static/media/img-3.jpeg": "/adventure-travel-website/static/media/img-3.80b4d53fd9215fe5cfff.jpeg",
     "index.html": "/adventure-travel-website/index.html",
-    "main.c1cdc0c8.css.map": "/adventure-travel-website/static/css/main.c1cdc0c8.css.map",
-    "main.a809f21b.js.map": "/adventure-travel-website/static/js/main.a809f21b.js.map"
+    "main.09256bf5.css.map": "/adventure-travel-website/static/css/main.09256bf5.css.map",
+    "main.8a97a9c4.js.map": "/adventure-travel-website/static/js/main.8a97a9c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1cdc0c8.css",
-    "static/js/main.a809f21b.js"
+    "static/css/main.09256bf5.css",
+    "static/js/main.8a97a9c4.js"
   ]
 }
