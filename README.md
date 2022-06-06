@@ -6,16 +6,16 @@ Adventure: A travel based responsive landing web page built - this project was b
 
 [LIVE PREVIEW](https://magda-korzeniowska.github.io/adventure-travel-website/)
 
-![Landing Page](/src/assets/landing_page.png?raw=true "Landing Page")
+![Landing Page](/src/assets/images/landing_page.png?raw=true "Landing Page")
 
-![Cards](/src/assets/cards.png?raw=true "Cards")
+![Cards](/src/assets/images/cards.png?raw=true "Cards")
 
-![Footer](/src/assets/footer.png?raw=true "Footer")
+![Footer](/src/assets/images/footer.png?raw=true "Footer")
 
 <div align="middle">
-![Landing Page - mobile](/src/assets/landing_page_mobile.png?raw=true "Landing Page for mobile")
-![Cards - mobile](/src/assets/cards_mobile.png?raw=true "Cards for mobile")
-![Footer - mobile](/src/assets/footer_mobile.png?raw=true "Footer for mobile")
+![Landing Page - mobile](/src/assets/images/landing_page_mobile.png?raw=true "Landing Page for mobile")
+![Cards - mobile](/src/assets/images/cards_mobile.png?raw=true "Cards for mobile")
+![Footer - mobile](/src/assets/images/footer_mobile.png?raw=true "Footer for mobile")
 </div>
 
 ## Installation
