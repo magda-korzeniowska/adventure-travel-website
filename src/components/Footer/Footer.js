@@ -11,8 +11,7 @@ function Footer() {
         <p className="footer__heading">
           Join the UNCOMMON newsletter to receive our best vacation deals!
         </p>
-        <p className="footer__text">You can unsubscribe at any time</p>
-        <div className="input-areas">
+        <div className="footer__form">
           <form className="footer__email-form">
             <input
               className="footer__input"
@@ -21,6 +20,7 @@ function Footer() {
               placeholder="Your e-mail"
             ></input>
             <Button btnStyle="btn--outline">Subscribe</Button>
+            <p className="footer__text">*You can unsubscribe at any time</p>
           </form>
         </div>
       </section>

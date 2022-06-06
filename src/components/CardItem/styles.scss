@@ -18,7 +18,6 @@
       flex: 0 0 32.8%;
     }
   }
-
   &__link {
     display: flex;
     flex-flow: column;
@@ -68,12 +67,12 @@
     }
   }
   &__info {
-    padding: 1.25rem 1.6rem;
+    padding: 1rem 1.6rem;
     margin: auto 0;
   }
   &__text {
     color: #252e48;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
   }
 }
