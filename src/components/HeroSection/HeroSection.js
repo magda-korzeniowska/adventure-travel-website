@@ -13,7 +13,7 @@ function HeroSection() {
         autoPlay
         loop
         muted
-        playsInLine
+        playsInline
       />
       <h1 className="hero__title">ADVENTURE IS HERE!</h1>
       <p className="hero__text">Don't wait to join!</p>
