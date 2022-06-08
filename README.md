@@ -2,7 +2,7 @@
 
 # Adventure Travel Website
 
-Adventure: A travel based responsive landing web page built - this project was bootstrapped with Create React App.
+Adventure: A travel based responsive landing web page - this project was bootstrapped with Create React App.
 
 [LIVE PREVIEW](https://magda-korzeniowska.github.io/adventure-travel-website/)
 
@@ -17,6 +17,7 @@ Adventure: A travel based responsive landing web page built - this project was b
   <img align="top" src="/src/assets/images/cards_mobile.png" width="32%" /> 
   <img align="top" src="/src/assets/images/footer_mobile.png" width="32%" />
 </p>
+
 ## Installation
 
 1. Start terminal and clone repository using:
